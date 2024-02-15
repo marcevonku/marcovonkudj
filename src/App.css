@@ -1,3 +1,37 @@
+
+.logo {
+  width: 200px; /* ajusta el tamaño según sea necesario */
+  height: 200px;
+  /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
+  border-radius: 50%; /* para hacer un círculo si es necesario */
+  animation: rotate 2.5s linear infinite; /* ajusta la duración según sea necesario */
+}
+
+.logo img {
+  width: 100%; /* asegura que la imagen ocupe todo el espacio del div */
+  height: 100%;
+  border-radius: 50%; /* para hacer un círculo si es necesario */
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rep {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 700px; /* ajusta el tamaño según sea necesario */
+  height: 10px;
+  /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
+  border-radius: 5%
+}
+
 .App {
   text-align: center;
 }
