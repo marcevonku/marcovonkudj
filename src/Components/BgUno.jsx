@@ -1,6 +1,5 @@
 import React from 'react';
 import marco_outfit_cuatro from '../img-fondo/marco_outfit_cuatro.jpg';
-import LogoBody from './LogoBody';
 import useSound from 'use-sound';
 import elcirco from '../aud/elcirco.mp3';
 import LogoBodyUno from './LogoBodyUno';
