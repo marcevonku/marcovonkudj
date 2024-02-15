@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marcovonkudj/static/css/main.9a2c154d.css",
-    "main.js": "/marcovonkudj/static/js/main.b68c445a.js",
+    "main.js": "/marcovonkudj/static/js/main.2317c0aa.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
@@ -9,12 +9,12 @@
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
     "main.9a2c154d.css.map": "/marcovonkudj/static/css/main.9a2c154d.css.map",
-    "main.b68c445a.js.map": "/marcovonkudj/static/js/main.b68c445a.js.map",
+    "main.2317c0aa.js.map": "/marcovonkudj/static/js/main.2317c0aa.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a2c154d.css",
-    "static/js/main.b68c445a.js"
+    "static/js/main.2317c0aa.js"
   ]
 }
