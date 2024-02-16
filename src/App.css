@@ -10,6 +10,7 @@
 .logo img {
   width: 100%; /* asegura que la imagen ocupe todo el espacio del div */
   height: 100%;
+  border: 3px solid white;
   border-radius: 50%; /* para hacer un círculo si es necesario */
 }
 

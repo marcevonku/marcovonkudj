@@ -12,7 +12,7 @@ function NavBasic() {
           <Nav className="me-auto">
             <Nav.Link className="text-white" href="#home">Servicios</Nav.Link>
             <Nav.Link className="text-white" href="#link">Galeria</Nav.Link>
-            <Nav.Link className="text-white" href="#action/3.1">Clienetes</Nav.Link>
+            <Nav.Link className="text-white" href="#action/3.1">Clientes</Nav.Link>
             <Nav.Link className="text-white" href="#action/3.2">Contacto</Nav.Link>
             <Nav.Link className="text-white" href="#action/3.3"></Nav.Link>
             <Nav.Link className="text-white" href="#action/3.4"></Nav.Link>

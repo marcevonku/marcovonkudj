@@ -7,7 +7,7 @@ function LogoBodyUno() {
       <div className="row">
         <div className="content fluid d-flex align-items-center justify-content-center">
           <div className="logo" style={{ 
-            marginTop: '45%', // 100% del viewport height
+            marginTop: '55%', // 100% del viewport height
             marginBottom: '5%' 
         }}>
             <img src={MarcoLogo3} alt="logo dj"/>
