@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/marcovonkudj/static/css/main.9a2c154d.css",
-    "main.js": "/marcovonkudj/static/js/main.a196b18c.js",
+    "main.css": "/marcovonkudj/static/css/main.bbbd245e.css",
+    "main.js": "/marcovonkudj/static/js/main.76298015.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
     "static/media/MuroUno.jpg": "/marcovonkudj/static/media/MuroUno.08cb96be0af4060c631b.jpg",
     "static/media/imgfiesta2.jpg": "/marcovonkudj/static/media/imgfiesta2.7e85c8b6e799cec23a7c.jpg",
-    "static/media/marco_outfit_cuatro.jpg": "/marcovonkudj/static/media/marco_outfit_cuatro.fb7e9b9c82c721f31658.jpg",
+    "static/media/marco_outfit_cuatro.jpg": "/marcovonkudj/static/media/marco_outfit_cuatro.e6a510cdbbd6b111f318.jpg",
     "static/media/MarcoLogo3.jpg": "/marcovonkudj/static/media/MarcoLogo3.00659f148cf51faf8629.jpg",
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
-    "main.9a2c154d.css.map": "/marcovonkudj/static/css/main.9a2c154d.css.map",
-    "main.a196b18c.js.map": "/marcovonkudj/static/js/main.a196b18c.js.map",
+    "main.bbbd245e.css.map": "/marcovonkudj/static/css/main.bbbd245e.css.map",
+    "main.76298015.js.map": "/marcovonkudj/static/js/main.76298015.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a2c154d.css",
-    "static/js/main.a196b18c.js"
+    "static/css/main.bbbd245e.css",
+    "static/js/main.76298015.js"
   ]
 }
