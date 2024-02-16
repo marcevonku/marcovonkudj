@@ -2,7 +2,8 @@ import React from "react";
 
 function Separador(props) {
   // Desestructura el prop "titulo"
-  const { titulo } = props;
+  const { title } = props;
+  const {id} = props;
 
   return (
     <>
@@ -14,7 +15,7 @@ function Separador(props) {
             color: "white",
           }}
         >
-          <h3 className="title">{titulo}</h3>
+          <h3 className="title" id={id}>{title}</h3>
         </div>
       </div>
     </>

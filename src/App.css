@@ -71,3 +71,10 @@
     transform: rotate(360deg);
   }
 }
+
+.contentLogo{
+  text-align: center;
+  align-content: center;
+  margin-top: 5%;
+  width: 100px;
+}
