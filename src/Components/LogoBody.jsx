@@ -21,7 +21,12 @@ function LogoBody(props) {
         <div className="row">
           <div className="content fluid d-flex align-items-center justify-content-center">
             <div className="logo">
-              <img src={MarcoLogo3} alt="logo dj"/>
+              <img 
+                src={MarcoLogo3} 
+                alt="logo dj"
+                style={{
+                  border: "7px solid purple"
+                }}/>
             </div>
           </div>
         </div>

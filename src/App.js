@@ -14,16 +14,16 @@ function App() {
   return (
     <>
       <NavBasic/>
-      <BackGround fondo={MuroUno} logoIn={true} logoType={1} buttonIn={true}/>
+      <BackGround fondo={MuroUno} logoIn={true} logoType={1} buttonIn={true} title={1}/>
       <Separador title="Service One: BAR && MUSIC HOUSE" id="Bares"/>
-      <BackGround fondo={marco_outfitUno} logoIn={true} logoType={2} buttonIn={true}/>
+      <BackGround fondo={imgfiesta2} logoIn={true} logoType={2} buttonIn={true} title={2}/>
       <Separador title="Service Two: DISCO && DRINKS" id="Noche" />
-      <BackGround fondo={imgfiesta2}/>
+      <BackGround fondo={marco_outfitUno}/>
       <Separador title="Service Three: DISC ALL NIGHT" id="Boliches" />
       <BackGround fondo={marco_parqueUno}/>
       <Separador title="Companies that trust the service" id="Empresas"/>
       <BackGround/>
-      <Separador title="Companies that trust the service" id="Empresas"/>
+    
 
 
   </>

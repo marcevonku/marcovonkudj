@@ -9,7 +9,10 @@ function NavBasic() {
         <Navbar.Brand className="text-white" href="#home">
           MarcoVonku DJ.
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav" 
+          style={{ backgroundColor: 'grey'}}/>
+        
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="text-white" href="#Bares">
