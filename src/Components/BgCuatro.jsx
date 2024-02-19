@@ -4,7 +4,7 @@ import birrahouse from "../img-fondo/birrahouse.jpg";
 import elfaro from "../img-fondo/elfaro.jpg";
 import pecados from "../img-fondo/pecados.jpg";
 import elbarcito from "../img-fondo/elbarcito.jpg";
-import laboriqua from "../img-fondo/laboriqua.jpg";
+import laboriqua from "../img-fondo/la boriqua.jpg";
 import kahlo from "../img-fondo/kahlo.jpg";
 
 const BackGroundTres = () => {

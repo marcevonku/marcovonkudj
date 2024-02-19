@@ -4,6 +4,7 @@ function Separador(props) {
   // Desestructura el prop "titulo"
   const { title } = props;
   const {id} = props;
+  // const todo = props;
 
   return (
     <>
@@ -16,6 +17,7 @@ function Separador(props) {
           }}
         >
           <h3 className="title" id={id}>{title}</h3>
+          {/* <h5>{todo.title},  {todo.id}</h5> */}
         </div>
       </div>
     </>

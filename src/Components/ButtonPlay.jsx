@@ -8,7 +8,7 @@ const ButtonPlay=()=>{
     return(
         <>
             <div style={{ 
-                marginTop: '10px',
+                margin: '3%',
                 textAlign:  'center'
                 }}>
                     <button 
@@ -18,7 +18,6 @@ const ButtonPlay=()=>{
                         style={{
                             backgroundColor: "purple",
                             border: "4px solid black",
-                            //border: "2px solid whit",
                         }}
                         >WELCOME TO DANCE PARTY NIGHT TRACK ONE</button>
             </div> 

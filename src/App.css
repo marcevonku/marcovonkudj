@@ -1,5 +1,20 @@
 
+.bg{
+  background-Size: cover;
+  background-Position: center;
+  height: 125vh; 
+}
+
+.bgUno{
+    background-Color: black;
+    background-Size: cover;
+    background-Position: center;
+    background-Repeat: no-repeat;
+    height: 100vh;
+}
+
 .logo {
+  margin-top: 18%;
   width: 200px; /* ajusta el tamaño según sea necesario */
   height: 200px;
   /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
@@ -72,9 +87,48 @@
   }
 }
 
-.contentLogo{
-  text-align: center;
-  align-content: center;
-  margin-top: 5%;
-  width: 100px;
+.row{
+  display: flex; 
+  /* flex-direction: column; */
+  height: 24%;
+  /* background-color: aqua; */
+  /* align-items: start;  Alinea los elementos al inicio */
+}
+
+.col{
+  display: flex; 
+  width: 100%;
+  height: 100%;
+  /* background-color: antiquewhite; */
+}
+.contentCorp {
+  display: flex; 
+  justify-content: center;
+  padding: 2%;
+  /* text-align: center; */
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+
+}
+
+/* Estilos para dispositivos con un ancho de pantalla de hasta 600 píxeles */
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-top: 115%;
+    width: 150px; /* ajusta el tamaño según sea necesario */
+    height: 150px;
+    /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
+    border-radius: 50%; /* para hacer un círculo si es necesario */
+    animation: rotate 2.5s linear infinite; /* ajusta la duración según sea necesario */
+  }
+
+}
+
+/* Estilos para dispositivos con un ancho de pantalla de 601 píxeles en adelante */
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: lightgreen;
+    /* Otros estilos para pantallas más grandes */
+  }
 }
