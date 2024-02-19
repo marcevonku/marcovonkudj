@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/marcovonkudj/static/css/main.4009409a.css",
-    "main.js": "/marcovonkudj/static/js/main.2f17e4cd.js",
+    "main.css": "/marcovonkudj/static/css/main.d9c994ce.css",
+    "main.js": "/marcovonkudj/static/js/main.952b3111.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
+    "static/media/Rizzla.mp3": "/marcovonkudj/static/media/Rizzla.de920b371a865078b49d.mp3",
     "static/media/MuroUno.jpg": "/marcovonkudj/static/media/MuroUno.08cb96be0af4060c631b.jpg",
     "static/media/marco_parqueUno.jpg": "/marcovonkudj/static/media/marco_parqueUno.9e1a443c7edfa2dc121a.jpg",
     "static/media/imgfiesta2.jpg": "/marcovonkudj/static/media/imgfiesta2.7e85c8b6e799cec23a7c.jpg",
@@ -19,13 +20,13 @@
     "static/media/MarcoLogo3.jpg": "/marcovonkudj/static/media/MarcoLogo3.00659f148cf51faf8629.jpg",
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
-    "main.4009409a.css.map": "/marcovonkudj/static/css/main.4009409a.css.map",
-    "main.2f17e4cd.js.map": "/marcovonkudj/static/js/main.2f17e4cd.js.map",
+    "main.d9c994ce.css.map": "/marcovonkudj/static/css/main.d9c994ce.css.map",
+    "main.952b3111.js.map": "/marcovonkudj/static/js/main.952b3111.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4009409a.css",
-    "static/js/main.2f17e4cd.js"
+    "static/css/main.d9c994ce.css",
+    "static/js/main.952b3111.js"
   ]
 }
