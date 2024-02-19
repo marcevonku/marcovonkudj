@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/marcovonkudj/static/css/main.5989d451.css",
-    "main.js": "/marcovonkudj/static/js/main.4c7b47fa.js",
+    "main.css": "/marcovonkudj/static/css/main.4009409a.css",
+    "main.js": "/marcovonkudj/static/js/main.2f17e4cd.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
     "static/media/MuroUno.jpg": "/marcovonkudj/static/media/MuroUno.08cb96be0af4060c631b.jpg",
-    "static/media/marco_parque.jpg": "/marcovonkudj/static/media/marco_parque.9f1ee64189816059177f.jpg",
+    "static/media/marco_parqueUno.jpg": "/marcovonkudj/static/media/marco_parqueUno.9e1a443c7edfa2dc121a.jpg",
     "static/media/imgfiesta2.jpg": "/marcovonkudj/static/media/imgfiesta2.7e85c8b6e799cec23a7c.jpg",
-    "static/media/marco_outfit_cuatro.jpg": "/marcovonkudj/static/media/marco_outfit_cuatro.e6a510cdbbd6b111f318.jpg",
-    "static/media/birrahouse.jpg": "/marcovonkudj/static/media/birrahouse.9657987f6b575c74ba5d.jpg",
-    "static/media/wirra.jpg": "/marcovonkudj/static/media/wirra.abef9ad5975416411472.jpg",
+    "static/media/birrahouse.jpg": "/marcovonkudj/static/media/birrahouse.3a309ef959e0952f6ea4.jpg",
+    "static/media/wirra.jpg": "/marcovonkudj/static/media/wirra.0084b9b98434166d0858.jpg",
+    "static/media/marco_outfitUno.jpg": "/marcovonkudj/static/media/marco_outfitUno.1b5271907091aacd4aea.jpg",
     "static/media/elfaro.jpg": "/marcovonkudj/static/media/elfaro.691f52aa27e92f2587f5.jpg",
-    "static/media/kahlo.jpg": "/marcovonkudj/static/media/kahlo.cf9f43e1dad7d67a7f11.jpg",
+    "static/media/kahlo.jpg": "/marcovonkudj/static/media/kahlo.a93416f39ffb9a1871bc.jpg",
     "static/media/pecados.jpg": "/marcovonkudj/static/media/pecados.c3d2bf2ae9a56ae27a6a.jpg",
     "static/media/elbarcito.jpg": "/marcovonkudj/static/media/elbarcito.600c646a759807086841.jpg",
-    "static/media/laboriqua.jpg": "/marcovonkudj/static/media/laboriqua.733b7ae37e6142a4e764.jpg",
+    "static/media/la boriqua.jpg": "/marcovonkudj/static/media/la boriqua.733b7ae37e6142a4e764.jpg",
     "static/media/MarcoLogo3.jpg": "/marcovonkudj/static/media/MarcoLogo3.00659f148cf51faf8629.jpg",
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
-    "main.5989d451.css.map": "/marcovonkudj/static/css/main.5989d451.css.map",
-    "main.4c7b47fa.js.map": "/marcovonkudj/static/js/main.4c7b47fa.js.map",
+    "main.4009409a.css.map": "/marcovonkudj/static/css/main.4009409a.css.map",
+    "main.2f17e4cd.js.map": "/marcovonkudj/static/js/main.2f17e4cd.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5989d451.css",
-    "static/js/main.4c7b47fa.js"
+    "static/css/main.4009409a.css",
+    "static/js/main.2f17e4cd.js"
   ]
 }
