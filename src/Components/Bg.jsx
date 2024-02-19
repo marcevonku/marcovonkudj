@@ -11,9 +11,14 @@ import laboriqua from "../img-fondo/la boriqua.jpg";
 import kahlo from "../img-fondo/kahlo.jpg";
 
 function BackGround(props) {
-  if (props.fondo === undefined) {
+  if (props.fondo==="") {
     return (
       <div className="bgUno">
+
+        <div className="contentCorp">
+          <img src={kahlo} alt="Logo Kahlo Disco Lavalle, Mendoza" />
+        </div>
+
         <div className="contentCorp">
           <img src={wirra} alt="Logo de wirra" />
         </div>
@@ -36,10 +41,6 @@ function BackGround(props) {
 
         <div className="contentCorp">
           <img src={laboriqua} alt="Logo La Boriqua sunset" />
-        </div>
-
-        <div className="contentCorp">
-          <img src={kahlo} alt="Logo Kahlo Disco Lavalle, Mendoza" />
         </div>
 
       </div>

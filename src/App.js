@@ -14,15 +14,25 @@ function App() {
   return (
     <>
       <NavBasic/>
+      <div className="clearfix"></div>
       <BackGround fondo={MuroUno} logoIn={true} logoType={1} buttonIn={true} title={1}/>
+      <div className="clearfix"></div>
       <Separador title="Service One: BAR && MUSIC HOUSE" id="Bares"/>
+      <div className="clearfix"></div>
       <BackGround fondo={imgfiesta2} logoIn={true} logoType={2} buttonIn={true} title={2}/>
+      <div className="clearfix"></div>
       <Separador title="Service Two: DISCO && DRINKS" id="Noche" />
+      <div className="clearfix"></div>
       <BackGround fondo={marco_outfitUno}/>
+      <div className="clearfix"></div>
       <Separador title="Service Three: DISC ALL NIGHT" id="Boliches" />
+      <div className="clearfix"></div>
       <BackGround fondo={marco_parqueUno}/>
+      <div className="clearfix"></div>
       <Separador title="Companies that trust the service" id="Empresas"/>
-      <BackGround/>
+      <div className="clearfix"></div>
+      <BackGround fondo={""}/>
+      <div className="clearfix"></div>
     
 
 

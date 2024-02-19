@@ -57,14 +57,6 @@ table {
   line-height: auto; 
 }
 
-.bgUno{
-    background-Color:white;
-    /* background-Size: cover; */
-}
-img{
-  margin: 0 auto;
-  width:100%;
-}
 
 .logo {
   margin-top: 15%;
@@ -140,26 +132,43 @@ img{
   }
 }
 
-.row{
-  display: flex; 
-  /* flex-direction: column; */
-  height: 24%;
-  /* background-color: aqua; */
-  /* align-items: start;  Alinea los elementos al inicio */
+.bgUno{
+  /* border: 1px solid white; */
+  background-Color: rgb(156, 3, 141);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; 
+  height: 200vh; 
+  background-Size: cover;
+  justify-content: center; 
+  align-content: stretch;
+  align-items: center;
+
+  
 }
 
-.col{
-  display: flex; 
-  width: 100%;
-  height: 100%;
-  /* background-color: antiquewhite; */
-}
 .contentCorp {
+    /* border: 1px solid yellow; */
+    margin: 2%;
+    width: 280px; 
+    height: 280px;
+    line-height: 280px;    
+    text-align: center;
+    /* flex-basis: 20%; */
+  }
+
+img{
 margin: 0 auto;
-  padding: 5%;
-  width: 50%;
-  height: 30%;
-  float: left;
+ width:100%; 
+}
+
+
+
+
+.clearfix{
+  clear: both;
 }
 
 /* Estilos para dispositivos con un ancho de pantalla de hasta 600 píxeles */
