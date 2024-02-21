@@ -31,8 +31,11 @@ function App() {
       <div className="clearfix"></div>
       <Separador title="Companies that trust the service" id="Empresas"/>
       <div className="clearfix"></div>
-      <BackGround fondo={""}/>
+      <BackGround fondo={"empresas"}/>
       <div className="clearfix"></div>
+      <Separador title="Let's take your party to another level...!!!  ***  Send me a message"/>
+      <BackGround fondo={"color"} />
+
     
 
 

@@ -11,7 +11,42 @@ import laboriqua from "../img-fondo/la boriqua.jpg";
 import kahlo from "../img-fondo/kahlo.jpg";
 
 function BackGround(props) {
-  if (props.fondo==="") {
+
+  if (props.fondo==="color"){
+    return(
+      <div className="bgDos"
+        style={{
+          backgroundColor: "#18202c",
+          margin: "0 auto",
+          display: "flex",
+          flexDirection: "row",
+          flex: "wrap",
+          width: "100%", 
+          height: "100vh", 
+          backgroundSize: "cover",
+          justifyConten: "center",
+          alignContent: "stretch",
+          alignItems: "center",        
+        }}>
+
+          <form >
+            <span>Nombre</span><br />
+            <input name="" id="" /><br />
+            <span>Email</span><br />
+            <input type="email" name="" id="" /><br />
+            <span>WhatsApp</span><br />
+            <input type="tel" name="" id="" /><br />
+            <span>Mensaje</span><br />
+            <textarea /><br />
+            <button className="btn btn-secondary" type="button" style={{border:"2px solid black"}}>ENVIAR</button>
+          </form>
+          <div className="voxContact">
+
+          </div>
+      </div>
+    );
+  }
+  if (props.fondo==="empresas") {
     return (
       <div className="bgUno">
 
