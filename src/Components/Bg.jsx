@@ -9,40 +9,24 @@ import pecados from "../img-fondo/pecados.jpg";
 import elbarcito from "../img-fondo/elbarcito.jpg";
 import laboriqua from "../img-fondo/la boriqua.jpg";
 import kahlo from "../img-fondo/kahlo.jpg";
+import EnvioForm from "./FormSubmit.jsx";
+import BoardContact from "./BoardCo.jsx";
+import artemisa from "../img-fondo/artemisa.jpg";
+
+
+
+
+
 
 function BackGround(props) {
 
   if (props.fondo==="color"){
     return(
-      <div className="bgDos"
-        style={{
-          backgroundColor: "#18202c",
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "row",
-          flex: "wrap",
-          width: "100%", 
-          height: "100vh", 
-          backgroundSize: "cover",
-          justifyConten: "center",
-          alignContent: "stretch",
-          alignItems: "center",        
-        }}>
-
-          <form >
-            <span>Nombre</span><br />
-            <input name="" id="" /><br />
-            <span>Email</span><br />
-            <input type="email" name="" id="" /><br />
-            <span>WhatsApp</span><br />
-            <input type="tel" name="" id="" /><br />
-            <span>Mensaje</span><br />
-            <textarea /><br />
-            <button className="btn btn-secondary" type="button" style={{border:"2px solid black"}}>ENVIAR</button>
-          </form>
-          <div className="voxContact">
-
-          </div>
+      <div className="bgDos"> 
+        <EnvioForm /> 
+        
+        <BoardContact/>  
+        
       </div>
     );
   }
@@ -64,6 +48,10 @@ function BackGround(props) {
 
         <div className="contentCorp">
           <img src={elfaro} alt="Logo de El Faro Cerbeceria" />
+        </div>
+
+        <div className="contentCorp">
+          <img src={artemisa} alt="Logo La Boriqua sunset" />
         </div>
 
         <div className="contentCorp">

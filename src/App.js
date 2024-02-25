@@ -7,6 +7,7 @@ import MuroUno from './img-fondo/MuroUno.jpg';
 import marco_outfitUno from './img-fondo/marco_outfitUno.jpg'
 import imgfiesta2 from './img-fondo/imgfiesta2.jpg'
 import marco_parqueUno from './img-fondo/marco_parqueUno.jpg'
+import Footer from "./Components/Footer.jsx";
 
 
 function App() {
@@ -34,7 +35,9 @@ function App() {
       <BackGround fondo={"empresas"}/>
       <div className="clearfix"></div>
       <Separador title="Let's take your party to another level...!!!  ***  Send me a message"/>
+      <div className="clearfix"></div>
       <BackGround fondo={"color"} />
+      <Footer/>
 
     
 
