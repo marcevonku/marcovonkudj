@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marcovonkudj/static/css/main.71b32463.css",
-    "main.js": "/marcovonkudj/static/js/main.4564cfc1.js",
+    "main.css": "/marcovonkudj/static/css/main.0d3ef827.css",
+    "main.js": "/marcovonkudj/static/js/main.52025826.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
@@ -14,19 +14,21 @@
     "static/media/marco_outfitUno.jpg": "/marcovonkudj/static/media/marco_outfitUno.1b5271907091aacd4aea.jpg",
     "static/media/elfaro.jpg": "/marcovonkudj/static/media/elfaro.691f52aa27e92f2587f5.jpg",
     "static/media/kahlo.jpg": "/marcovonkudj/static/media/kahlo.a93416f39ffb9a1871bc.jpg",
+    "static/media/LogoMarco6.png": "/marcovonkudj/static/media/LogoMarco6.8a29aaad1da42463fabd.png",
     "static/media/pecados.jpg": "/marcovonkudj/static/media/pecados.c3d2bf2ae9a56ae27a6a.jpg",
     "static/media/elbarcito.jpg": "/marcovonkudj/static/media/elbarcito.600c646a759807086841.jpg",
     "static/media/la boriqua.jpg": "/marcovonkudj/static/media/la boriqua.733b7ae37e6142a4e764.jpg",
     "static/media/MarcoLogo3.jpg": "/marcovonkudj/static/media/MarcoLogo3.00659f148cf51faf8629.jpg",
+    "static/media/artemisa.jpg": "/marcovonkudj/static/media/artemisa.e2551f028e5b6a94e005.jpg",
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
-    "main.71b32463.css.map": "/marcovonkudj/static/css/main.71b32463.css.map",
-    "main.4564cfc1.js.map": "/marcovonkudj/static/js/main.4564cfc1.js.map",
+    "main.0d3ef827.css.map": "/marcovonkudj/static/css/main.0d3ef827.css.map",
+    "main.52025826.js.map": "/marcovonkudj/static/js/main.52025826.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b32463.css",
-    "static/js/main.4564cfc1.js"
+    "static/css/main.0d3ef827.css",
+    "static/js/main.52025826.js"
   ]
 }
