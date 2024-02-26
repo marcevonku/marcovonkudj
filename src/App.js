@@ -23,6 +23,7 @@ function App() {
         logoType={1}
         buttonIn={true}
         title={1}
+        val={1}
       />
       <div className="clearfix"></div>
       <Separador title="Service One: BAR && MUSIC HOUSE" id="Bares" />
@@ -33,15 +34,20 @@ function App() {
         logoType={2}
         buttonIn={true}
         title={2}
+        val={2}
       />
       <div className="clearfix"></div>
       <Separador title="Service Two: DISCO && DRINKS" id="Noche" />
       <div className="clearfix"></div>
-      <BackGround fondo={marco_outfitUno} />
+      <BackGround 
+        fondo={marco_outfitUno}
+        val={3} />
       <div className="clearfix"></div>
       <Separador title="Service Three: DISC ALL NIGHT" id="Boliches" />
       <div className="clearfix"></div>
-      <BackGround fondo={marco_parqueUno} />
+      <BackGround 
+        fondo={marco_parqueUno}
+        val={4} />
       <Separador title="Galery Photo" />
       <div className="clearfix"></div>
       <Carrusel />
@@ -53,6 +59,7 @@ function App() {
       <div className="clearfix"></div>
       <BackGround fondo={"color"} />
       <Footer />
+      <Separador title={"Vamos a agregar alto"}/>
     </>
   );
 }

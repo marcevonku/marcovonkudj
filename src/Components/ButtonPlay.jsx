@@ -17,7 +17,7 @@ function ButtonPlay(props) {
     <>
       <div
         style={{
-          margin: '3%',
+          margin: '1%',
           textAlign: 'center',
         }}
       >

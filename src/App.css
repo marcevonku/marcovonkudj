@@ -59,7 +59,7 @@ table {
 
 
 .logo {
-  margin-top: 15%;
+  /* margin-top: 5%; */
   width: 200px; /* ajusta el tamaño según sea necesario */
   height: 200px;
   /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
@@ -140,7 +140,7 @@ table {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%; 
-  height: 275vh; 
+  height: 100vh; 
   background-Size: cover;
   justify-content: center; 
   align-content: stretch;
@@ -160,6 +160,21 @@ table {
   justify-content: center; 
   align-content: center;
   align-items: center; 
+}
+
+.bgTres{
+  border: 1px solid rgb(67, 237, 62);
+  background-color: #18202c;
+  width: 100%; 
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  height: 100vh; 
+  background-Size: cover;
+  justify-content: center; 
+  /* align-content: center; */
+  /* align-items: center;  */
 }
 
 .footer{
@@ -188,14 +203,14 @@ form{
 }
 
 .voxContact{
-  margin: 3%;
+  margin-top: 1%;
   border: 1px solid yellow;
   background-color: rgba(225, 125, 10, 0.468);
   /* background-color: rgba(233, 21, 230, 0.742); */
   width: 400px;
   height: 500px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   color: white;
   padding: 2%;
   border-radius: 5px;
@@ -203,7 +218,7 @@ form{
 
 form input{
   width: 100%;
-  height: 35px;
+  height: 25px;
   border-radius: 5px;
 }
 
@@ -216,14 +231,14 @@ form textarea{
 form button{
   margin-top: 5%;
   width: 100%;
-  height: 45px;
+  height: 35px;
 }
 
 .contentCorp {
     /* border: 1px solid yellow; */
     margin: 2%;
-    width: 280px; 
-    height: 280px;
+    width: 250px; 
+    height: 250px;
     line-height: 280px;    
     text-align: center;
     /* flex-basis: 20%; */
@@ -246,13 +261,58 @@ margin: 0 auto;
 /* Estilos para dispositivos con un ancho de pantalla de hasta 600 píxeles */
 @media only screen and (max-width: 600px) {
   .logo {
-    margin-top: 65%;
+    margin-top: 25%;
     width: 150px; /* ajusta el tamaño según sea necesario */
     height: 150px;
     /*background-color: #yourColor; cambia esto al color de fondo de tu logo*/
     border-radius: 50%; /* para hacer un círculo si es necesario */
     animation: rotate 2.5s linear infinite; /* ajusta la duración según sea necesario */
   }
+
+  .bgUno{
+    border: 1px solid white;
+    background-Color: rgb(156, 3, 141);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; 
+    height: 300vh; 
+    background-Size: cover;
+    justify-content: center; 
+    align-content: stretch;
+    align-items: center;
+  }
+
+  .bgTres{
+    border: 1px solid rgb(67, 237, 62);
+    background-color: #18202c;
+    width: 100%; 
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    height: 150vh; 
+    background-Size: cover;
+    justify-content: center; 
+    /* align-content: center; */
+    /* align-items: center;  */
+  }
+
+  /* .footer{
+    background-color: rgb(1, 1, 29);
+    border: 2px solid yellow;
+    width: 100%;
+    margin: 0 auto;
+    height: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  } */
 
 }
 

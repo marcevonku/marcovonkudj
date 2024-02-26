@@ -12,12 +12,13 @@ import kahlo from "../img-fondo/kahlo.jpg";
 import EnvioForm from "./FormSubmit.jsx";
 // import BoardContact from "./BoardCo.jsx";
 import artemisa from "../img-fondo/artemisa.jpg";
+import TextBody from "./TextBody.jsx";
 
 function BackGround(props) {
 
   if (props.fondo==="color"){
     return(
-      <div className="bgDos"> 
+      <div className="bgTres"> 
         <EnvioForm /> 
         
         {/* <BoardContact/>   */}
@@ -67,14 +68,18 @@ function BackGround(props) {
     const fondo = props.fondo;
     const logoType = props.logoType;
     const title = props.title;
+    const value = props.val;
 
     return props.logoIn ? (
       <div className="bg" style={{ backgroundImage: `url(${fondo})` }}>
+        <TextBody value={value}/>
         <LogoBody logoType={logoType} />
         <ButtonPlay title={title}/>
       </div>
     ) : (
-      <div className="bg" style={{ backgroundImage: `url(${fondo})` }}></div>
+      <div className="bg" style={{ backgroundImage: `url(${fondo})` }}>
+        <TextBody value={value}/>
+      </div>
     );
   }
 }
