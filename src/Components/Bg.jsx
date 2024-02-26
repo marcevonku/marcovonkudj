@@ -13,11 +13,6 @@ import EnvioForm from "./FormSubmit.jsx";
 import BoardContact from "./BoardCo.jsx";
 import artemisa from "../img-fondo/artemisa.jpg";
 
-
-
-
-
-
 function BackGround(props) {
 
   if (props.fondo==="color"){
