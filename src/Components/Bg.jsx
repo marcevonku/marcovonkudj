@@ -10,7 +10,7 @@ import elbarcito from "../img-fondo/elbarcito.jpg";
 import laboriqua from "../img-fondo/la boriqua.jpg";
 import kahlo from "../img-fondo/kahlo.jpg";
 import EnvioForm from "./FormSubmit.jsx";
-import BoardContact from "./BoardCo.jsx";
+// import BoardContact from "./BoardCo.jsx";
 import artemisa from "../img-fondo/artemisa.jpg";
 
 function BackGround(props) {
@@ -20,7 +20,7 @@ function BackGround(props) {
       <div className="bgDos"> 
         <EnvioForm /> 
         
-        <BoardContact/>  
+        {/* <BoardContact/>   */}
         
       </div>
     );

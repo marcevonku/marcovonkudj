@@ -10,91 +10,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const items = [
   {
-    src: require('../img-fondo/fotoUno.jpg'),
+    src: require('../img-fondo/foto1.jpg'),
     altText: '',
     caption: ''
   },
   {
-    src: require('../img-fondo/fotoDos.jpg'),
+    src: require('../img-fondo/foto2.jpg'),
     altText: '',
     caption: ''
   },
   {
-    src: require('../img-fondo/fotoTres.jpg'),
+    src: require('../img-fondo/foto3.jpg'),
     altText: '',
     caption: ''
   },
-  {
-    src: require('../img-fondo/fotoCuatro.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoCinco.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoSeis.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoSiete.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoOcho.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoNueve.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoDiez.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoOnce.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoDoce.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoTrece.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoCatorce.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoQuince.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoDieciseis.jpg'),
-    altText: '',
-    caption: ''
-  },
-  {
-    src: require('../img-fondo/fotoDiecisiete.jpg'),
-    altText: '',
-    caption: ''
-  },
-  
 ];
 
 class Carrusel extends Component {
@@ -143,7 +72,7 @@ class Carrusel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText}  height="100%"/>
+          <img src={item.src} alt={item.altText}/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );

@@ -42,7 +42,7 @@ function App() {
       <Separador title="Service Three: DISC ALL NIGHT" id="Boliches" />
       <div className="clearfix"></div>
       <BackGround fondo={marco_parqueUno} />
-      <Separador title="Galery Foto" />
+      <Separador title="Galery Photo" />
       <div className="clearfix"></div>
       <Carrusel />
       <Separador title="Companies that trust the service" id="Empresas" />
