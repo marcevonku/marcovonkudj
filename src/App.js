@@ -27,7 +27,7 @@ function App() {
         
       />
       <div className="clearfix"></div>
-      <Separador title="Servicio: BAR && MUSIC HOUSE" id="bares"/>
+      <Separador title="Servicio: BAR && MUSIC HOUSE" id="eventos"/>
       <div className="clearfix"></div>
       <BackGround
         fondo={imgfiesta2}
@@ -38,13 +38,13 @@ function App() {
         val={2}
       />
       <div className="clearfix"></div>
-      <Separador title="Servicio: DISCO && DRINKS" id="eventos"/>
+      <Separador title="Servicio: DISCO && DRINKS" id=""/>
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_outfitUno}
         val={3} />
       <div className="clearfix"></div>
-      <Separador title="Servicio: DISC ALL NIGHT" id="disco" />
+      <Separador title="Servicio: DISC ALL NIGHT" id="" />
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_parqueUno}

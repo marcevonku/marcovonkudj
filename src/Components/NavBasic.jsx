@@ -29,9 +29,7 @@ function NavBasic() {
                         }}
                     />MarcoVonkuDJ</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#bares">Bares</Nav.Link>
             <Nav.Link href="#eventos">Eventos</Nav.Link>
-            <Nav.Link href="#disco">Disco</Nav.Link>
             <Nav.Link href="#galeria">Galeria</Nav.Link>
             <Nav.Link href="#empresas">Empresas</Nav.Link>
             <Nav.Link href="#contacto">Contacto</Nav.Link>
