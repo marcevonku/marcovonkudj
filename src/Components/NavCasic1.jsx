@@ -29,7 +29,7 @@ function NavBasic1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#inicio">Home</Nav.Link>
+            {/* <Nav.Link href="#inicio">Home</Nav.Link> */}
             {/* <Nav.Link href="#contacto">Link</Nav.Link> */}
             <NavDropdown title="Negocio" id="basic-nav-dropdown">
               <NavDropdown.Item href="#resto/3.1">Resto</NavDropdown.Item>
