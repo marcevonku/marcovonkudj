@@ -165,16 +165,16 @@ table {
 .bgTres{
   border: 1px solid rgb(67, 237, 62);
   background-color: #18202c;
+  background-Size: cover;
   width: 100%; 
   margin: 0 auto;
   display: flex;
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  height: 100vh; 
-  background-Size: cover;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* height: 100vh;  */
   justify-content: center; 
-  /* align-content: center; */
-  /* align-items: center;  */
+  align-content: center;
+  align-items: center; 
 }
 
 .footer{

@@ -44,8 +44,7 @@ function ButtonPlay(props) {
             border: '4px solid black',
             
           }}
-        ><i class="bi bi-play">{isPlaying ? 'STOP MUSIC' : 'PLAY MUSIC'}</i>
-          
+        >{isPlaying ? 'STOP MUSIC' : 'PLAY MUSIC'}
         </button>
       </div>
     </>

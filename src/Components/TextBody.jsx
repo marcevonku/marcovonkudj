@@ -77,7 +77,7 @@ return(<>
                                 paddingRight: "3%",
                                 color: "orange",
                                 textAlign: "left",
-                                fontSize: "24px",
+                                fontSize: "22px",
                                 WebkitTextStroke: "1.1px black",
                                 
                             }}>Desde los éxitos actuales a los clásicos que nunca pasan, mi repertorio es tan diverso como tu audiencia. Garantizo una mezcla perfecta que mantendrá a todos en la pista de baile, independientemente de sus gustos.</p>

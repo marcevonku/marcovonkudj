@@ -16,17 +16,18 @@ function App() {
   return (
     <>
       <NavBasic />
-      <div className="clearfix"></div>
-      <BackGround
-        fondo={MuroUno}
-        logoIn={true}
-        logoType={1}
-        buttonIn={true}
-        title={1}
-        val={1}
+      <div className="clearfix" id="inicio"></div>
+      <BackGround 
+        fondo={MuroUno}//Aqui indico que imagen cargar en el background
+        logoIn={true}// aqui indico que esta sección llevará componente logo girando
+        logoType={1}// indico que diseño de logo incluir
+        buttonIn={true} // incluya un componente button
+        title={1} // indica número de canción al dar play
+        val={1} // indica que se debe incluir un componente texto
+        
       />
       <div className="clearfix"></div>
-      <Separador title="Servicio Uno: BAR && MUSIC HOUSE" id="Bares" />
+      <Separador title="Servicio: BAR && MUSIC HOUSE" id="bares"/>
       <div className="clearfix"></div>
       <BackGround
         fondo={imgfiesta2}
@@ -37,25 +38,25 @@ function App() {
         val={2}
       />
       <div className="clearfix"></div>
-      <Separador title="Servicio Dos: DISCO && DRINKS" id="Noche" />
+      <Separador title="Servicio: DISCO && DRINKS" id="eventos"/>
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_outfitUno}
         val={3} />
       <div className="clearfix"></div>
-      <Separador title="Servicio Tres: DISC ALL NIGHT" id="Boliches" />
+      <Separador title="Servicio: DISC ALL NIGHT" id="disco" />
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_parqueUno}
         val={4} />
-      <Separador title="GALERIA DE FOTOS" />
+      <Separador title="GALERIA DE FOTOS" id="galeria" />
       <div className="clearfix"></div>
       <Carrusel />
-      <Separador title="EMPRESAS QUE CONFIAN EL EL SERVICIO" id="Empresas" />
+      <Separador title="EMPRESAS QUE ENTIENDEN" id="empresas" />
       <div className="clearfix"></div>
       <BackGround fondo={"empresas"} />
       <div className="clearfix"></div>
-      <Separador title="  Quieres llevar tu fiesta al próximo nivel...!!!  ***  Envíame un mensaje" />
+      <Separador title="  Quieres llevar tu fiesta al próximo nivel...!!!  ***  Envíame un mensaje" id="contacto"/>
       <div className="clearfix"></div>
       <BackGround fondo={"color"} />
       <Footer />
