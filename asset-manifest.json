@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marcovonkudj/static/css/main.b093167f.css",
-    "main.js": "/marcovonkudj/static/js/main.0463297e.js",
+    "main.css": "/marcovonkudj/static/css/main.152c39d2.css",
+    "main.js": "/marcovonkudj/static/js/main.9d1a88bc.js",
     "static/js/508.cc363a9d.chunk.js": "/marcovonkudj/static/js/508.cc363a9d.chunk.js",
     "static/js/592.cef72a76.chunk.js": "/marcovonkudj/static/js/592.cef72a76.chunk.js",
     "static/media/elcirco.mp3": "/marcovonkudj/static/media/elcirco.3b48326cf4c097cfd045.mp3",
@@ -25,13 +25,13 @@
     "static/media/artemisa.jpg": "/marcovonkudj/static/media/artemisa.e2551f028e5b6a94e005.jpg",
     "static/media/LogoMarco4.jpg": "/marcovonkudj/static/media/LogoMarco4.0208de42678ca53b23fd.jpg",
     "index.html": "/marcovonkudj/index.html",
-    "main.b093167f.css.map": "/marcovonkudj/static/css/main.b093167f.css.map",
-    "main.0463297e.js.map": "/marcovonkudj/static/js/main.0463297e.js.map",
+    "main.152c39d2.css.map": "/marcovonkudj/static/css/main.152c39d2.css.map",
+    "main.9d1a88bc.js.map": "/marcovonkudj/static/js/main.9d1a88bc.js.map",
     "508.cc363a9d.chunk.js.map": "/marcovonkudj/static/js/508.cc363a9d.chunk.js.map",
     "592.cef72a76.chunk.js.map": "/marcovonkudj/static/js/592.cef72a76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b093167f.css",
-    "static/js/main.0463297e.js"
+    "static/css/main.152c39d2.css",
+    "static/js/main.9d1a88bc.js"
   ]
 }
