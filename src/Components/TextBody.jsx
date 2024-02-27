@@ -66,21 +66,21 @@ return(<>
                                 paddingTop: "5% ",
                                 paddingRight: "3%",
                                 paddingLeft: "3%",
-                                color: "white",
-                                WebkitTextStroke: "1px black",
+                                color: "orange",
+                                WebkitTextStroke: "1.3px black",
                                 // textAlign: "right",
                                 
                             }}>Versatilidad Musical</h3>
                             <p style={{
                                 paddingTop: "1% ",
-                                paddingLeft: "55%",
+                                paddingLeft: "65%",
                                 paddingRight: "3%",
-                                color: "white",
+                                color: "orange",
                                 textAlign: "left",
-                                fontSize: "22px",
-                                WebkitTextStroke: "1px black",
+                                fontSize: "24px",
+                                WebkitTextStroke: "1.1px black",
                                 
-                            }}>Con años de experiencia en la escena musical, siendo DJ profesional he llevado la fiesta a numerosos lugares exitosos. Confía, te voy a ofrecer no solo música, sino una experiencia que mantendrá a tus clientes regresando por más</p>
+                            }}>Desde los éxitos actuales a los clásicos que nunca pasan, mi repertorio es tan diverso como tu audiencia. Garantizo una mezcla perfecta que mantendrá a todos en la pista de baile, independientemente de sus gustos.</p>
                           </>
                           );}
 

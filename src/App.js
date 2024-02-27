@@ -26,7 +26,7 @@ function App() {
         val={1}
       />
       <div className="clearfix"></div>
-      <Separador title="Service One: BAR && MUSIC HOUSE" id="Bares" />
+      <Separador title="Servicio Uno: BAR && MUSIC HOUSE" id="Bares" />
       <div className="clearfix"></div>
       <BackGround
         fondo={imgfiesta2}
@@ -37,29 +37,28 @@ function App() {
         val={2}
       />
       <div className="clearfix"></div>
-      <Separador title="Service Two: DISCO && DRINKS" id="Noche" />
+      <Separador title="Servicio Dos: DISCO && DRINKS" id="Noche" />
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_outfitUno}
         val={3} />
       <div className="clearfix"></div>
-      <Separador title="Service Three: DISC ALL NIGHT" id="Boliches" />
+      <Separador title="Servicio Tres: DISC ALL NIGHT" id="Boliches" />
       <div className="clearfix"></div>
       <BackGround 
         fondo={marco_parqueUno}
         val={4} />
-      <Separador title="Galery Photo" />
+      <Separador title="GALERIA DE FOTOS" />
       <div className="clearfix"></div>
       <Carrusel />
-      <Separador title="Companies that trust the service" id="Empresas" />
+      <Separador title="EMPRESAS QUE CONFIAN EL EL SERVICIO" id="Empresas" />
       <div className="clearfix"></div>
       <BackGround fondo={"empresas"} />
       <div className="clearfix"></div>
-      <Separador title="Let's take your party to another level...!!!  ***  Send me a message" />
+      <Separador title="  Quieres llevar tu fiesta al próximo nivel...!!!  ***  Envíame un mensaje" />
       <div className="clearfix"></div>
       <BackGround fondo={"color"} />
       <Footer />
-      <Separador title={"Vamos a agregar alto"}/>
     </>
   );
 }

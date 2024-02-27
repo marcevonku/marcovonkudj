@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 import useSound from 'use-sound';
 import elcirco from '../aud/elcirco.mp3';
 import Rizzla from '../aud/Rizzla.mp3';
@@ -11,7 +12,20 @@ function ButtonPlay(props) {
     tema = Rizzla;
   }
 
-  const [playSound] = useSound(tema);
+  const [play, { stop }] = useSound(tema);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (isPlaying) {
+      play();
+    } else {
+      stop();
+    }
+  }, [isPlaying, play, stop]);
+
+  const handleClick = () => {
+    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
+  };
 
   return (
     <>
@@ -23,14 +37,15 @@ function ButtonPlay(props) {
       >
         <button
           type="button"
-          className="btn btn-success"
-          onClick={playSound}
+          className={`btn ${isPlaying ? 'btn-danger' : 'btn-success'}`}
+          onClick={handleClick}
           style={{
             backgroundColor: 'purple',
             border: '4px solid black',
+            
           }}
-        >
-          WELCOME TO DANCE PARTY NIGHT TRACK ONE
+        ><i class="bi bi-play">{isPlaying ? 'STOP MUSIC' : 'PLAY MUSIC'}</i>
+          
         </button>
       </div>
     </>

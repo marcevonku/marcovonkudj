@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavBasic() {
   return (
-    <Navbar expand="lg" className="bg-black border-bottom border-light">
+    <Navbar expand="lg" className="bg-black border-bottom border-light fixed-top">
       <Container>
         <Navbar.Brand className="text-white" href="#home">
           MarcoVonku DJ.
