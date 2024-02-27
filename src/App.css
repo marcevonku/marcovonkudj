@@ -133,7 +133,7 @@ table {
 }
 
 .bgUno{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-Color: rgb(156, 3, 141);
   margin: 0 auto;
   display: flex;
@@ -148,7 +148,7 @@ table {
 }
 
 .bgDos{
-  border: 1px solid rgb(67, 237, 62);
+  /* border: 1px solid rgb(67, 237, 62); */
   background-color: #18202c;
   width: 100%; 
   margin: 0 auto;
@@ -163,7 +163,7 @@ table {
 }
 
 .bgTres{
-  border: 1px solid rgb(67, 237, 62);
+  /* border: 1px solid rgb(67, 237, 62); */
   background-color: #18202c;
   background-Size: cover;
   width: 100%; 
@@ -204,7 +204,7 @@ form{
 
 .voxContact{
   margin-top: 1%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   background-color: rgba(225, 125, 10, 0.468);
   /* background-color: rgba(233, 21, 230, 0.742); */
   width: 400px;
@@ -271,7 +271,7 @@ margin: 0 auto;
   }
 
   .bgUno{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-Color: rgb(156, 3, 141);
     margin: 0 auto;
     display: flex;
@@ -286,7 +286,7 @@ margin: 0 auto;
   }
 
   .bgTres{
-    border: 1px solid rgb(67, 237, 62);
+    /* border: 1px solid rgb(67, 237, 62); */
     background-color: #18202c;
     width: 100%; 
     margin: 0 auto;
@@ -299,22 +299,6 @@ margin: 0 auto;
     /* align-content: center; */
     /* align-items: center;  */
   }
-
-  /* .footer{
-    background-color: rgb(1, 1, 29);
-    border: 2px solid yellow;
-    width: 100%;
-    margin: 0 auto;
-    height: 30px;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  } */
-
 }
 
 /* Estilos para dispositivos con un ancho de pantalla de 601 píxeles en adelante */
